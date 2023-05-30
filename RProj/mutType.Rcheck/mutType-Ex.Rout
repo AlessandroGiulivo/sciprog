@@ -1,0 +1,45 @@
+
+R version 4.2.3 (2023-03-15) -- "Shortstop Beagle"
+Copyright (C) 2023 The R Foundation for Statistical Computing
+Platform: aarch64-apple-darwin20 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> pkgname <- "mutType"
+> source(file.path(R.home("share"), "R", "examples-header.R"))
+> options(warn = 1)
+> library('mutType')
+> 
+> base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
+> base::assign(".old_wd", base::getwd(), pos = 'CheckExEnv')
+> cleanEx()
+> nameEx("mutType")
+> ### * mutType
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: mutType
+> ### Title: Determine mutation type
+> ### Aliases: mutType
+> 
+> ### ** Examples
+> 
+> 
+> mutType("data/inst/sample.vcf", HSapiens, 3)
+Error in h(simpleError(msg, call)) : 
+  error in evaluating the argument 'x' in selecting a method for function 'seqinfo': file(s) do not exist:
+  ‘data/inst/sample.vcf’
+Calls: mutType ... <Anonymous> -> open -> open.BcfFile -> .io_check_exists
+Execution halted

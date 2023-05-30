@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f111825-d4d2-4897-90e0-a075b9f84a65" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/python/candidateGenes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/details.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/network.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/results.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/targetGenes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/python/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/candidateExample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/candidateExample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/candidateGenes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/details.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkexample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/networkexample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/proj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projclient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projserver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/targetExample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/targetExample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/targetGenes.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QIXfKz18vq36pjzIVrpXceOKvQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f111825-d4d2-4897-90e0-a075b9f84a65" name="Changes" comment="" />
+      <created>1685042173071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685042173071</updated>
+      <workItem from="1685042176667" duration="27286000" />
+      <workItem from="1685111903952" duration="4631000" />
+      <workItem from="1685190775044" duration="2606000" />
+      <workItem from="1685278515160" duration="848000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

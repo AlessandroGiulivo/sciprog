@@ -1,0 +1,15 @@
+Scientific Programming Project 2
+Package for disease gene prediction based on an protein-protein interaction network
+Job datetime: 28/05/2023 14:51:24
+Parameters used:
+	Network file: network.txt
+	Target genes file: targetGenes.txt
+	Candidate genes file: candidateGenes.txt
+	combined_score = 350.0
+
+
+
+Candidate gene	ECP_1741
+	Distance to target gene	ECP_0750	None
+	Distance to target gene	ECP_2514	None
+	Distance to target gene	ECP_0226	None
