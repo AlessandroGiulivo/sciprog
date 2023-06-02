@@ -4,26 +4,35 @@
 \alias{mutType}
 \title{Determine mutation type}
 \usage{
-mutType(VCFFile, refGenome, context_length)
+mutType(VCFFile, refGenome, context_length, graphics = TRUE)
 }
 \arguments{
 \item{VCFFile}{a set of mutations in VCF Format}
 
-\item{refGenome}{Full reference genome sequences as provided by UCSC in Biostrings objects}
+\item{refGenome}{Full reference genome sequences as provided by UCSC in
+Biostrings objects}
 
-\item{context_length}{an odd integer representing the length of region around the mutation}
+\item{context_length}{an odd integer representing the length of region around
+the mutation}
+
+\item{graphics}{default = TRUE; if TRUE, saves a barplot of mutation type
+frequencies in a pdf file}
 }
 \value{
-mutation type as "UP[REF>ALT]DOWN"
+vector of mutation types as "UP[REF>ALT]DOWN"
 }
 \description{
-This function compares a list of mutations in VCF format to a reference genome
-and returns the mutation type along with \emph context_length \emph upstream
-and downstream bases
+The mutType function compares a list of mutations in VCF format to a
+reference genome and returns the mutation type along with upstream and
+downstream bases for a total length = context_length
 }
 \examples{
 
-mutType("data/inst/sample.vcf", HSapiens, 3)
+library(BSgenome.Hsapiens.UCSC.hg19)
+Hs <- Hsapiens
+sample <- system.file("extdata", "sample.vcf", package = "mutType")
+
+mutType(sample, Hs, 7)
 
 }
 \author{

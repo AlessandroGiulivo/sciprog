@@ -3,7 +3,7 @@
 * using platform: aarch64-apple-darwin20 (64-bit)
 * using session charset: UTF-8
 * checking for file ‘mutType/DESCRIPTION’ ... OK
-* this is package ‘mutType’ version ‘0.0.0.9000’
+* this is package ‘mutType’ version ‘0.0.1’
 * package encoding: UTF-8
 * checking package namespace information ... OK
 * checking package dependencies ... OK
@@ -16,12 +16,12 @@
 * checking whether package ‘mutType’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
 * checking index information ... OK
-* checking package subdirectories ... WARNING
-Subdirectory ‘data’ contains no data sets.
+* checking package subdirectories ... OK
 * checking R files for non-ASCII characters ... OK
 * checking R files for syntax errors ... OK
 * checking whether the package can be loaded ... OK
@@ -33,9 +33,12 @@ Subdirectory ‘data’ contains no data sets.
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
-* checking R code for possible problems ... OK
-* checking Rd files ... WARNING
-prepare_Rd: ./man/mutType.Rd:21: unexpected TEXT ' context_length ', expecting '{'
+* checking R code for possible problems ... NOTE
+mutTypeTable: no visible binding for global variable ‘Type’
+mutTypeTable: no visible binding for global variable ‘Frequency’
+Undefined global functions or variables:
+  Frequency Type
+* checking Rd files ... OK
 * checking Rd metadata ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
@@ -43,30 +46,14 @@ prepare_Rd: ./man/mutType.Rd:21: unexpected TEXT ' context_length ', expecting '
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
-* checking contents of ‘data’ directory ... WARNING
-Files not of a type allowed in a ‘data’ directory:
-  ‘inst’
-Please use e.g. ‘inst/extdata’ for non-R data files
-
-* checking data for non-ASCII characters ... OK
-* checking data for ASCII and uncompressed saves ... OK
-* checking examples ... ERROR
-Running examples in ‘mutType-Ex.R’ failed
-The error most likely occurred in:
-
-> ### Name: mutType
-> ### Title: Determine mutation type
-> ### Aliases: mutType
-> 
-> ### ** Examples
-> 
-> 
-> mutType("data/inst/sample.vcf", HSapiens, 3)
-Error in h(simpleError(msg, call)) : 
-  error in evaluating the argument 'x' in selecting a method for function 'seqinfo': file(s) do not exist:
-  ‘data/inst/sample.vcf’
-Calls: mutType ... <Anonymous> -> open -> open.BcfFile -> .io_check_exists
-Execution halted
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... NONE
+  ‘mutType_vignette.Rmd’ using ‘UTF-8’... OK
+* checking re-building of vignette outputs ... OK
 * checking PDF version of manual ... OK
 * DONE
-Status: 1 ERROR, 3 WARNINGs
+Status: 1 NOTE

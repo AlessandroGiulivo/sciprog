@@ -1,19 +1,22 @@
 Package: mutType
 Title: Determine the mutation type for a set of single nucleotide
         variants in a genome with mutType package
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person("Alessandro", "Giulivo", , "alessandro.giulivo@mail.polimi.it", role = c("aut", "cre"))
 Description: The mutType package takes a set of mutations (single nucleotide variants, SNVs) in VCF format, and determines for each mutation the corresponding mutation type.
 Depends: R(>= 3.6)
-Imports: VariantAnnotation, SummarizedExperiment
+Imports: utils, VariantAnnotation, SummarizedExperiment, IRanges,
+        Biostrings, ggplot2, BSgenome.Hsapiens.UCSC.hg19
 Suggests: knitr, rmarkdown, BiocStyle
+VignetteBuilder: knitr
 License: GPL-2
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+biocViews: Software, SNV, GenomicVariation, MutationTypes, VCF
 NeedsCompilation: no
-Packaged: 2023-05-28 17:08:55 UTC; alessandrogiulivo
+Packaged: 2023-06-02 22:04:24 UTC; alessandrogiulivo
 Author: Alessandro Giulivo [aut, cre]
 Maintainer: Alessandro Giulivo <alessandro.giulivo@mail.polimi.it>
-Built: R 4.2.3; ; 2023-05-28 17:09:01 UTC; unix
+Built: R 4.2.3; ; 2023-06-02 22:05:19 UTC; unix

@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f111825-d4d2-4897-90e0-a075b9f84a65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python/candidateGenes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/details.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/network.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/results.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/targetGenes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/python/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/candidateExample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/candidateExample.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/candidateGenes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/details.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/network.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/network.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/networkexample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/networkexample.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/proj.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projclient.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projserver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/targetExample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python/targetExample.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/targetGenes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyProj/candidateGenes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/candidateGenes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyProj/details.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/details.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyProj/network.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/network.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyProj/network.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyProj/proj.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/proj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyProj/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyProj/results_image.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/results_image.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyProj/targetGenes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/targetGenes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +61,7 @@
       <workItem from="1685111903952" duration="4631000" />
       <workItem from="1685190775044" duration="2606000" />
       <workItem from="1685278515160" duration="848000" />
+      <workItem from="1685439980759" duration="15662000" />
     </task>
     <servers />
   </component>

@@ -18,7 +18,35 @@ flush(stderr()); flush(stdout())
 ### ** Examples
 
 
-mutType("data/inst/sample.vcf", HSapiens, 3)
+library(BSgenome.Hsapiens.UCSC.hg19)
+Hs <- Hsapiens
+sample <- system.file("extdata", "sample.vcf", package = "mutType")
+
+mutType(sample, Hs, 7)
+
+
+
+
+cleanEx()
+nameEx("mutTypeTable")
+### * mutTypeTable
+
+flush(stderr()); flush(stdout())
+
+### Name: mutTypeTable
+### Title: Summarize Mutation Types
+### Aliases: mutTypeTable
+
+### ** Examples
+
+
+library(BSgenome.Hsapiens.UCSC.hg19)
+Hs <- Hsapiens
+sample <- system.file("extdata", "sample.vcf", package = "mutType")
+
+muts <- mutType(sample, Hs, 7, graphics = FALSE)
+mutTypeTable(muts)
+
 
 
 

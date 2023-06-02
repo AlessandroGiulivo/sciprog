@@ -94,11 +94,11 @@ No file Rd2.toc.
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/jknapltx/ursfs.fd) [1{/usr/l
 ocal/texlive/2023basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local
 /texlive/2023basic/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2
-023basic/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
+023basic/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] [2]
 No file Rd2.ind.
-[2]
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpbjZqku/Rd2pdf982b
-7c35abfc/Rd2.aux)
+[3]
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
+7a0f84a7/Rd2.aux)
 
 Package rerunfilecheck Warning: File `Rd2.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -110,12 +110,12 @@ ic/uhvr8a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/local/texlive/2023basic/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (2 pages, 70716 bytes).
+Output written on Rd2.pdf (3 pages, 76552 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.17 [TeX Live 2023] (kpathsea + Thai support).
-Scanning input file Rd2.idx....done (1 entries accepted, 0 rejected).
-Sorting entries...done (0 comparisons).
-Generating output file Rd2.ind....done (5 lines written, 0 warnings).
+Scanning input file Rd2.idx....done (2 entries accepted, 0 rejected).
+Sorting entries....done (2 comparisons).
+Generating output file Rd2.ind....done (6 lines written, 0 warnings).
 Output written in Rd2.ind.
 Transcript written in Rd2.ilg.
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
@@ -199,29 +199,29 @@ Writing index file Rd2.idx
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.d
 ef)
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpbjZqku/Rd2pdf982b
-7c35abfc/Rd2.aux)
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
+7a0f84a7/Rd2.aux)
 (/usr/local/texlive/2023basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 )
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpbjZqku/Rd2pdf982b
-7c35abfc/Rd2.out)
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpbjZqku/Rd2pdf982b
-7c35abfc/Rd2.out)
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
+7a0f84a7/Rd2.out)
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
+7a0f84a7/Rd2.out)
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpbjZqku/Rd2pdf982b
-7c35abfc/Rd2.toc
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
+7a0f84a7/Rd2.toc
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/jknapltx/ursfs.fd)) [1{/usr/
 local/texlive/2023basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loca
 l/texlive/2023basic/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/
-2023basic/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpbjZqku/Rd2pdf982b
-7c35abfc/Rd2.ind [2] [3])
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpbjZqku/Rd2pdf982b
-7c35abfc/Rd2.aux)
+2023basic/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] [2]
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
+7a0f84a7/Rd2.ind [3] [4])
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
+7a0f84a7/Rd2.aux)
 
 Package rerunfilecheck Warning: File `Rd2.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -233,12 +233,12 @@ ic/uhvr8a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/local/texlive/2023basic/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (3 pages, 71341 bytes).
+Output written on Rd2.pdf (4 pages, 77396 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.17 [TeX Live 2023] (kpathsea + Thai support).
-Scanning input file Rd2.idx....done (1 entries accepted, 0 rejected).
-Sorting entries...done (0 comparisons).
-Generating output file Rd2.ind....done (5 lines written, 0 warnings).
+Scanning input file Rd2.idx....done (2 entries accepted, 0 rejected).
+Sorting entries....done (2 comparisons).
+Generating output file Rd2.ind....done (6 lines written, 0 warnings).
 Output written in Rd2.ind.
 Transcript written in Rd2.ilg.
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
@@ -322,37 +322,37 @@ Writing index file Rd2.idx
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.d
 ef)
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpbjZqku/Rd2pdf982b
-7c35abfc/Rd2.aux)
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
+7a0f84a7/Rd2.aux)
 (/usr/local/texlive/2023basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 )
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpbjZqku/Rd2pdf982b
-7c35abfc/Rd2.out)
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpbjZqku/Rd2pdf982b
-7c35abfc/Rd2.out)
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
+7a0f84a7/Rd2.out)
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
+7a0f84a7/Rd2.out)
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpbjZqku/Rd2pdf982b
-7c35abfc/Rd2.toc
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
+7a0f84a7/Rd2.toc
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/jknapltx/ursfs.fd)) [1{/usr/
 local/texlive/2023basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loca
 l/texlive/2023basic/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/
-2023basic/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpbjZqku/Rd2pdf982b
-7c35abfc/Rd2.ind [2] [3])
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpbjZqku/Rd2pdf982b
-7c35abfc/Rd2.aux) )</usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/
+2023basic/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}] [2]
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
+7a0f84a7/Rd2.ind [3] [4])
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
+7a0f84a7/Rd2.aux) )</usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/
 inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2023basic/texmf-dist/fonts
 /type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/t
 ype1/urw/times/utmb8a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on Rd2.pdf (3 pages, 71987 bytes).
+Output written on Rd2.pdf (4 pages, 78023 bytes).
 Transcript written on Rd2.log.
 Saving output to ‘mutType-manual.pdf’ ...
 Done
-You may want to clean up by 'rm -Rf /var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T//RtmpbjZqku/Rd2pdf982b7c35abfc'
+You may want to clean up by 'rm -Rf /var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T//RtmpJg9JTU/Rd2pdf92157a0f84a7'

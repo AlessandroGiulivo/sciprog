@@ -37,9 +37,152 @@ Type 'q()' to quit R.
 > ### ** Examples
 > 
 > 
-> mutType("data/inst/sample.vcf", HSapiens, 3)
-Error in h(simpleError(msg, call)) : 
-  error in evaluating the argument 'x' in selecting a method for function 'seqinfo': file(s) do not exist:
-  ‘data/inst/sample.vcf’
-Calls: mutType ... <Anonymous> -> open -> open.BcfFile -> .io_check_exists
-Execution halted
+> library(BSgenome.Hsapiens.UCSC.hg19)
+Loading required package: BSgenome
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    Filter, Find, Map, Position, Reduce, anyDuplicated, aperm, append,
+    as.data.frame, basename, cbind, colnames, dirname, do.call,
+    duplicated, eval, evalq, get, grep, grepl, intersect, is.unsorted,
+    lapply, mapply, match, mget, order, paste, pmax, pmax.int, pmin,
+    pmin.int, rank, rbind, rownames, sapply, setdiff, sort, table,
+    tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    I, expand.grid, unname
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: GenomicRanges
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: rtracklayer
+> Hs <- Hsapiens
+> sample <- system.file("extdata", "sample.vcf", package = "mutType")
+> 
+> mutType(sample, Hs, 7)
+Saving 7 x 7 in image
+[1] "[T>G]" "[T>C]" "[C>T]" "[T>A]" "[T>C]" "[T>A]" "[C>T]" "[T>G]" "[C>A]"
+> 
+> 
+> 
+> 
+> cleanEx()
+
+detaching ‘package:BSgenome.Hsapiens.UCSC.hg19’, ‘package:BSgenome’,
+  ‘package:rtracklayer’, ‘package:Biostrings’, ‘package:XVector’,
+  ‘package:GenomicRanges’, ‘package:GenomeInfoDb’, ‘package:IRanges’,
+  ‘package:S4Vectors’, ‘package:stats4’, ‘package:BiocGenerics’
+
+> nameEx("mutTypeTable")
+> ### * mutTypeTable
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: mutTypeTable
+> ### Title: Summarize Mutation Types
+> ### Aliases: mutTypeTable
+> 
+> ### ** Examples
+> 
+> 
+> library(BSgenome.Hsapiens.UCSC.hg19)
+Loading required package: BSgenome
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    Filter, Find, Map, Position, Reduce, anyDuplicated, aperm, append,
+    as.data.frame, basename, cbind, colnames, dirname, do.call,
+    duplicated, eval, evalq, get, grep, grepl, intersect, is.unsorted,
+    lapply, mapply, match, mget, order, paste, pmax, pmax.int, pmin,
+    pmin.int, rank, rbind, rownames, sapply, setdiff, sort, table,
+    tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    I, expand.grid, unname
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: GenomicRanges
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: ‘Biostrings’
+
+The following object is masked from ‘package:base’:
+
+    strsplit
+
+Loading required package: rtracklayer
+> Hs <- Hsapiens
+> sample <- system.file("extdata", "sample.vcf", package = "mutType")
+> 
+> muts <- mutType(sample, Hs, 7, graphics = FALSE)
+> mutTypeTable(muts)
+Saving 7 x 7 in image
+   Type Frequency
+1 [C>A]         1
+2 [C>T]         2
+3 [T>A]         2
+4 [T>C]         2
+5 [T>G]         2
+> 
+> 
+> 
+> 
+> 
+> ### * <FOOTER>
+> ###
+> cleanEx()
+
+detaching ‘package:BSgenome.Hsapiens.UCSC.hg19’, ‘package:BSgenome’,
+  ‘package:rtracklayer’, ‘package:Biostrings’, ‘package:XVector’,
+  ‘package:GenomicRanges’, ‘package:GenomeInfoDb’, ‘package:IRanges’,
+  ‘package:S4Vectors’, ‘package:stats4’, ‘package:BiocGenerics’
+
+> options(digits = 7L)
+> base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
+Time elapsed:  5.71 0.284 6.095 0 0 
+> grDevices::dev.off()
+null device 
+          1 
+> ###
+> ### Local variables: ***
+> ### mode: outline-minor ***
+> ### outline-regexp: "\\(> \\)?### [*]+" ***
+> ### End: ***
+> quit('no')

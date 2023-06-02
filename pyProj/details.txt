@@ -1,15 +1,94 @@
 Scientific Programming Project 2
 Package for disease gene prediction based on an protein-protein interaction network
-Job datetime: 28/05/2023 14:51:24
+Job datetime: 30/05/2023 21:14:12
 Parameters used:
-	Network file: network.txt
-	Target genes file: targetGenes.txt
+	Network file: hsNetwork.txt
+	Target genes file: candidateGenes.txt
 	Candidate genes file: candidateGenes.txt
-	combined_score = 350.0
+	combined_score = 0
 
 
 
-Candidate gene	ECP_1741
-	Distance to target gene	ECP_0750	None
-	Distance to target gene	ECP_2514	None
-	Distance to target gene	ECP_0226	None
+Candidate gene	PRKACB
+	Distance to seed gene	PRKACB	0
+	Distance to seed gene	PRKCD	None
+	Distance to seed gene	PRKX	None
+	Distance to seed gene	PTCH1	None
+	Distance to seed gene	PTCH2	None
+	Distance to seed gene	PTHLH	None
+	Distance to seed gene	RAB23	None
+Total distance from targets:	0
+Number of targets connected to candidate:	1
+Score:	0.0
+
+Candidate gene	PRKCD
+	Distance to seed gene	PRKACB	None
+	Distance to seed gene	PRKCD	0
+	Distance to seed gene	PRKX	None
+	Distance to seed gene	PTCH1	None
+	Distance to seed gene	PTCH2	None
+	Distance to seed gene	PTHLH	None
+	Distance to seed gene	RAB23	None
+Total distance from targets:	0
+Number of targets connected to candidate:	1
+Score:	0.0
+
+Candidate gene	PRKX
+	Distance to seed gene	PRKACB	None
+	Distance to seed gene	PRKCD	None
+	Distance to seed gene	PRKX	0
+	Distance to seed gene	PTCH1	None
+	Distance to seed gene	PTCH2	None
+	Distance to seed gene	PTHLH	None
+	Distance to seed gene	RAB23	None
+Total distance from targets:	0
+Number of targets connected to candidate:	1
+Score:	0.0
+
+Candidate gene	PTCH1
+	Distance to seed gene	PRKACB	None
+	Distance to seed gene	PRKCD	None
+	Distance to seed gene	PRKX	None
+	Distance to seed gene	PTCH1	0
+	Distance to seed gene	PTCH2	None
+	Distance to seed gene	PTHLH	None
+	Distance to seed gene	RAB23	None
+Total distance from targets:	0
+Number of targets connected to candidate:	1
+Score:	0.0
+
+Candidate gene	PTCH2
+	Distance to seed gene	PRKACB	None
+	Distance to seed gene	PRKCD	None
+	Distance to seed gene	PRKX	None
+	Distance to seed gene	PTCH1	None
+	Distance to seed gene	PTCH2	0
+	Distance to seed gene	PTHLH	None
+	Distance to seed gene	RAB23	None
+Total distance from targets:	0
+Number of targets connected to candidate:	1
+Score:	0.0
+
+Candidate gene	PTHLH
+	Distance to seed gene	PRKACB	None
+	Distance to seed gene	PRKCD	None
+	Distance to seed gene	PRKX	None
+	Distance to seed gene	PTCH1	None
+	Distance to seed gene	PTCH2	None
+	Distance to seed gene	PTHLH	0
+	Distance to seed gene	RAB23	None
+Total distance from targets:	0
+Number of targets connected to candidate:	1
+Score:	0.0
+
+Candidate gene	RAB23
+	Distance to seed gene	PRKACB	None
+	Distance to seed gene	PRKCD	None
+	Distance to seed gene	PRKX	None
+	Distance to seed gene	PTCH1	None
+	Distance to seed gene	PTCH2	None
+	Distance to seed gene	PTHLH	None
+	Distance to seed gene	RAB23	0
+Total distance from targets:	0
+Number of targets connected to candidate:	1
+Score:	0.0
