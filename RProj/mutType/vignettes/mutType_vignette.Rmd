@@ -21,19 +21,25 @@ library(mutType)
 
 ## Description
 
-The mutType package takes a set of mutations (single nucleotide variants, SNVs) in VCF format, and determines for each mutation the corresponding mutation type.
+The mutType package takes a set of mutations (single nucleotide variants, SNVs)
+in VCF format, and determines for each mutation the corresponding mutation type.
 
 
 ## mutType function
 
-The mutType function compares a list of mutations in VCF format to a reference genome and returns the mutation type along with upstream and downstream bases for a total length = `context_length`.
+The mutType function compares a list of mutations in VCF format to a reference
+genome and returns the mutation type along with upstream and downstream
+bases for a total length = `context_length`.
 
 **Usage:** `mutType(VCFFile, refGenome, context_length, graphics = TRUE)`
 
 - `VCFFile`: a set of mutations in VCF Format
-- `refGenome`: Full reference genome sequences as provided by UCSC in Biostrings objects
-- `context_length`: an odd integer representing the length of region around the mutation
-- `graphics`: default = TRUE; if TRUE, saves a barplot of mutation type frequencies in a pdf file
+- `refGenome`: Full reference genome sequences as provided by
+UCSC in Biostrings objects
+- `context_length`: an odd integer representing the length of region
+around the mutation
+- `graphics`: default = TRUE; if TRUE, saves a barplot of mutation type
+frequencies in a pdf file
 **returns** a vector of mutation types as "UP[REF>ALT]DOWN"
 
 **Example**
@@ -49,8 +55,10 @@ mutType(sample, Hs, 7, graphics = FALSE)
 
 ## mutTypeTable function
 
-The mutTypeTable function summarizes the mutations obtained from mutType function into a counts table and produces a pdf image plotting the results.
-It is automatically run when calling mutType function with parameter graphics = T 
+The mutTypeTable function summarizes the mutations obtained from mutType
+function into a counts table and produces a pdf image plotting the results.
+It is automatically run when calling mutType function when parameter
+`graphics = T`.
 
 **Usage:** `mutTypeTable(mutTypeResult)`
 
