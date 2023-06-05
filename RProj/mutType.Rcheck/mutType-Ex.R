@@ -50,7 +50,6 @@ mutTypeTable(muts)
 
 
 
-
 ### * <FOOTER>
 ###
 cleanEx()

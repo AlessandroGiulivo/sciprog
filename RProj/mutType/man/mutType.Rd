@@ -12,14 +12,17 @@ mutType(VCFFile, refGenome, context_length, graphics = TRUE)
 \item{refGenome}{Full reference genome sequences as provided by UCSC in
 Biostrings objects}
 
-\item{context_length}{an odd integer representing the length of region around
-the mutation}
+\item{context_length}{an odd integer representing the length of region
+around the mutation}
 
 \item{graphics}{default = TRUE; if TRUE, saves a barplot of mutation type
 frequencies in a pdf file}
 }
 \value{
-vector of mutation types as "UP[REF>ALT]DOWN"
+data.frame object of mutations as "UP[REF>ALT]DOWN" and mutation
+types as "[REF>ALT]" where "REF" is always either "C" or "T"..
+
+[REF>ALT]: R:REF\%3EALT\%5C
 }
 \description{
 The mutType function compares a list of mutations in VCF format to a
@@ -36,6 +39,6 @@ mutType(sample, Hs, 7)
 
 }
 \author{
-Alessandro Giulivo\cr Politecnico di Milano\cr Maintainer: Alessandro
-Giulivo\cr E-Mail: \href{mailto:alessandro.giulivo@mail.polimi.it}{alessandro.giulivo@mail.polimi.it}
+Alessandro Giulivo\cr Politecnico di Milano\cr Maintainer:
+Alessandro Giulivo\cr E-Mail: \href{mailto:alessandro.giulivo@mail.polimi.it}{alessandro.giulivo@mail.polimi.it}
 }

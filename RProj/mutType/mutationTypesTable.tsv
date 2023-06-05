@@ -1,6 +1,7 @@
 Type	Frequency
-[C>A]	1
-[C>T]	2
-[T>A]	2
-[T>C]	2
-[T>G]	2
+[C>A]	12
+[C>G]	22
+[C>T]	75
+[T>A]	10
+[T>C]	79
+[T>G]	13

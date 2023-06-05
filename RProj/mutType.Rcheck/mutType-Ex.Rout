@@ -82,8 +82,24 @@ Loading required package: rtracklayer
 > sample <- system.file("extdata", "sample.vcf", package = "mutType")
 > 
 > mutType(sample, Hs, 7)
+[1] Reading file...
+[1] Computing regions...
+[1] Checking chromosome names...
+[1] Filtering SNVs...
+[1] Finding sequences...
+[1] Checking redundancies...
+[1] Computing summary and plotting the results...
 Saving 7 x 7 in image
-[1] "[T>G]" "[T>C]" "[C>T]" "[T>A]" "[T>C]" "[T>A]" "[C>T]" "[T>G]" "[C>A]"
+[1] Writing results file...
+  seqnames     pos    mutation mutType
+1    chr19     111 NNN[T>G]NNN   [T>G]
+2    chr19     112 NNN[T>C]NNN   [T>C]
+3    chr19     112 NNN[T>G]NNN   [T>G]
+4    chr20   14370 NNN[C>T]NNN   [C>T]
+5    chr20 1110696 ATT[T>C]AGT   [T>C]
+6    chr20 1234567 CAC[C>T]GGA   [C>T]
+7    chr20 1235237 GTA[T>G]TTC   [T>G]
+8     chrX      10 NNN[C>A]NNN   [C>A]
 > 
 > 
 > 
@@ -152,15 +168,21 @@ Loading required package: rtracklayer
 > sample <- system.file("extdata", "sample.vcf", package = "mutType")
 > 
 > muts <- mutType(sample, Hs, 7, graphics = FALSE)
+[1] Reading file...
+[1] Computing regions...
+[1] Checking chromosome names...
+[1] Filtering SNVs...
+[1] Finding sequences...
+[1] Checking redundancies...
+[1] Computing summary and plotting the results...
+[1] Writing results file...
 > mutTypeTable(muts)
 Saving 7 x 7 in image
    Type Frequency
 1 [C>A]         1
 2 [C>T]         2
-3 [T>A]         2
-4 [T>C]         2
-5 [T>G]         2
-> 
+3 [T>C]         2
+4 [T>G]         3
 > 
 > 
 > 
@@ -176,7 +198,7 @@ detaching ‘package:BSgenome.Hsapiens.UCSC.hg19’, ‘package:BSgenome’,
 
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  5.71 0.284 6.095 0 0 
+Time elapsed:  8.507 0.459 9.078 0 0 
 > grDevices::dev.off()
 null device 
           1 

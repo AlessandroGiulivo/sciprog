@@ -22,9 +22,8 @@
 * Checking for blank lines in DESCRIPTION... OK
 * Checking if DESCRIPTION is well formatted... OK
 * Checking for proper Description: field...
-* NOTE: The Description field in the DESCRIPTION is made up by less than 3
-sentences. Please consider expanding this field, and structure it as a
-full paragraph
+* NOTE: The Description field in the DESCRIPTION is made up by less than 3 sentences. Please consider
+expanding this field, and structure it as a full paragraph
 * Checking for whitespace in DESCRIPTION field names... OK
 * Checking that Package field matches directory/tarball name... OK
 * Checking for Version field... OK
@@ -34,8 +33,7 @@ full paragraph
 * Checking for pinned package versions... OK
 * Checking DESCRIPTION/NAMESPACE consistency... OK
 * Checking .Rbuildignore... OK
-* Checking for stray BiocCheck output folders...
-* ERROR: Remove 'mutType.BiocCheck' from the package directory
+* Checking for stray BiocCheck output folders... OK
 * Checking vignette directory...
 * NOTE:  'sessionInfo' not found in vignette(s)
 Missing from file(s):

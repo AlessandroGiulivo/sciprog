@@ -5,7 +5,7 @@ Authors@R:
     person("Alessandro", "Giulivo", , "alessandro.giulivo@mail.polimi.it", role = c("aut", "cre"))
 Description: The mutType package takes a set of mutations (single nucleotide variants, SNVs) in VCF format, and determines for each mutation the corresponding mutation type.
 Depends: R(>= 3.6)
-Imports: utils, VariantAnnotation, SummarizedExperiment, IRanges, Biostrings, ggplot2, BSgenome.Hsapiens.UCSC.hg19
+Imports: utils, VariantAnnotation, SummarizedExperiment, IRanges, Biostrings, ggplot2, BSgenome.Hsapiens.UCSC.hg19, tidyr, dplyr
 Suggests: knitr, rmarkdown, BiocStyle
 VignetteBuilder: knitr
 License: GPL-2

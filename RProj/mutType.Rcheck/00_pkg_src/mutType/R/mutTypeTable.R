@@ -18,15 +18,14 @@
 #' muts <- mutType(sample, Hs, 7, graphics = FALSE)
 #' mutTypeTable(muts)
 #'
-#'
-#' @author Alessandro Giulivo\cr Politecnico di Milano\cr Maintainer: Alessandro
-#' Giulivo\cr E-Mail: <alessandro.giulivo@@mail.polimi.it>
+#' @author Alessandro Giulivo\cr Politecnico di Milano\cr Maintainer:
+#' Alessandro Giulivo\cr E-Mail: <alessandro.giulivo@@mail.polimi.it>
 #' 
 #' @export mutTypeTable
 #' @importFrom utils write.table
 #' @import ggplot2 
 mutTypeTable <- function(mutTypeResult) {
-  tbl <- as.data.frame(table(mutTypeResult))
+  tbl <- as.data.frame(table(mutTypeResult$mutType))
   colnames(tbl) <- c('Type', 'Frequency')
   p <- ggplot(tbl, aes(Type, Frequency, fill=Type)) +
     geom_col() +

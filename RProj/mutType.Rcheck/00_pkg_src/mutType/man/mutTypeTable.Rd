@@ -27,9 +27,8 @@ sample <- system.file("extdata", "sample.vcf", package = "mutType")
 muts <- mutType(sample, Hs, 7, graphics = FALSE)
 mutTypeTable(muts)
 
-
 }
 \author{
-Alessandro Giulivo\cr Politecnico di Milano\cr Maintainer: Alessandro
-Giulivo\cr E-Mail: \href{mailto:alessandro.giulivo@mail.polimi.it}{alessandro.giulivo@mail.polimi.it}
+Alessandro Giulivo\cr Politecnico di Milano\cr Maintainer:
+Alessandro Giulivo\cr E-Mail: \href{mailto:alessandro.giulivo@mail.polimi.it}{alessandro.giulivo@mail.polimi.it}
 }

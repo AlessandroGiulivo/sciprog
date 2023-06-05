@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.10)  3 JUN 2023 00:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.10)  5 JUN 2023 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -366,8 +366,8 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count291
 \l__pdf_internal_box=\box58
 )
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
-7a0f84a7/Rd2.aux)
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpsljM7K/Rd2pdfa918
+7c4d7c7f/Rd2.aux)
 \openout1 = `Rd2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -405,10 +405,10 @@ LaTeX Font Info:    ... okay on input line 8.
 )
 Package hyperref Info: Link coloring ON on input line 8.
 
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
-7a0f84a7/Rd2.out)
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
-7a0f84a7/Rd2.out)
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpsljM7K/Rd2pdfa918
+7c4d7c7f/Rd2.out)
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpsljM7K/Rd2pdfa918
+7c4d7c7f/Rd2.out)
 \@outlinefile=\write4
 \openout4 = `Rd2.out'.
 
@@ -426,8 +426,8 @@ LaTeX Font Info:    Trying to load font information for T1+phv on input line 37
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
-7a0f84a7/Rd2.toc
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpsljM7K/Rd2pdfa918
+7c4d7c7f/Rd2.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
 
 (/usr/local/texlive/2023basic/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -454,15 +454,15 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 r/local/texlive/2023basic/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/te
 xlive/2023basic/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.0pt on input line 78.
+(Font)              scaled to size 9.0pt on input line 81.
  [2]
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
-7a0f84a7/Rd2.ind [3] [4
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpsljM7K/Rd2pdfa918
+7c4d7c7f/Rd2.ind [3] [4
 
 
 ])
-(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpJg9JTU/Rd2pdf9215
-7a0f84a7/Rd2.aux)
+(/private/var/folders/fn/3ll6xqw90g518v0k1_4gmgf40000gn/T/RtmpsljM7K/Rd2pdfa918
+7c4d7c7f/Rd2.aux)
 Package rerunfilecheck Info: File `Rd2.out' has not changed.
 (rerunfilecheck)             Checksum: 509359492ED24D9637AB8D58DA952E67;260.
  ) 
@@ -480,7 +480,7 @@ ic/uhvr8a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/local/texlive/2023basic/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (4 pages, 78023 bytes).
+Output written on Rd2.pdf (4 pages, 78922 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream

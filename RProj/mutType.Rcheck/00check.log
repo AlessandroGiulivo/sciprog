@@ -29,15 +29,18 @@
 * checking whether the package can be unloaded cleanly ... OK
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
 * checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
 * checking R code for possible problems ... NOTE
+mutType: no visible binding for global variable ‘ALT’
+mutType: no visible binding for global variable ‘REF’
 mutTypeTable: no visible binding for global variable ‘Type’
 mutTypeTable: no visible binding for global variable ‘Frequency’
 Undefined global functions or variables:
-  Frequency Type
+  ALT Frequency REF Type
 * checking Rd files ... OK
 * checking Rd metadata ... OK
 * checking Rd cross-references ... OK
