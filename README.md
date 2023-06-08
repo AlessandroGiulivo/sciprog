@@ -2,7 +2,7 @@
 This repository contains my final projects for the Scientific Programming course at BCG.
 
 ## Python Project
-#### Package for disease gene prediction based on an protein-protein interaction network
+### Package for disease gene prediction based on an protein-protein interaction network
 
 The software `proj.py` within the `pyProj` directory provides a python function `genePred` which takes:
 - a *protein-protein interaction network from an individual species (e.g., human)* from the **STRING** database, using only physical interactions,
@@ -19,7 +19,7 @@ It returns:
 
 
 ## R Project
-#### Determine the mutation type for a set of single nucleotide variants in a genome
+### Determine the mutation type for a set of single nucleotide variants in a genome
 
 The R package `mutType` within the `RProj` directory provides an R function `mutType` which takes:
 - a set of mutations (single nucleotide variants, SNVs) in VCF format,
