@@ -1,5 +1,5 @@
 # sciprog
-This repo contains my final projects for the Scientific Programming course at BCG.
+This repository contains my final projects for the Scientific Programming course at BCG.
 
 ## Python Project
 #### Package for disease gene prediction based on an protein-protein interaction network
@@ -30,7 +30,7 @@ It determines for each mutation (only SNVs; other mutations like indels are igno
 The mutation type is `UP[REF>ALT]DOWN` where
 - `REF>ALT` is the single nucleotide variant from `REF` base to `ALT` base, e.g., “`C>T`”
 - `UP` is one or more upstream bases from the reference genome (depending on the user parameter “context_length”)
-- `DOWN is one or more downstream bases from the reference genome (same user parameter)
+- `DOWN` is one or more downstream bases from the reference genome (same user parameter)
 
 Optionally, the `mutTypeTable` function can be used to summarize the results and produce a barplot of the mutation types frequencies.
 
