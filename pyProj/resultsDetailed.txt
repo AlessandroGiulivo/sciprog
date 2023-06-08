@@ -1,0 +1,60 @@
+Scientific Programming Project 2
+Package for disease gene prediction based on an protein-protein interaction network
+Job datetime: 08/06/2023 13:21:10
+Parameters used:
+	Network file: hsNetwork.txt
+	Target genes file: targetGenes.txt
+	Candidate genes file: candidateGenes.txt
+	combined_score = 250
+
+
+
+Candidate gene	ENSP00000001008
+	Distance to seed gene	ENSP00000357292	3
+	Distance to seed gene	ENSP00000345502	3
+	Distance to seed gene	ENSP00000335153	2
+	Distance to seed gene	ENSP00000307208	3
+	Distance to seed gene	ENSP00000307078	3
+Total distance from targets:	14
+Number of targets connected to candidate:	5
+Score:	0.56
+
+Candidate gene	ENSP00000005257
+	Distance to seed gene	ENSP00000357292	3
+	Distance to seed gene	ENSP00000345502	3
+	Distance to seed gene	ENSP00000335153	2
+	Distance to seed gene	ENSP00000307208	3
+	Distance to seed gene	ENSP00000307078	3
+Total distance from targets:	14
+Number of targets connected to candidate:	5
+Score:	0.56
+
+Candidate gene	ENSP00000253457
+	Distance to seed gene	ENSP00000357292	3
+	Distance to seed gene	ENSP00000345502	4
+	Distance to seed gene	ENSP00000335153	3
+	Distance to seed gene	ENSP00000307208	3
+	Distance to seed gene	ENSP00000307078	3
+Total distance from targets:	16
+Number of targets connected to candidate:	5
+Score:	0.64
+
+Candidate gene	ENSP00000350198
+	Distance to seed gene	ENSP00000357292	4
+	Distance to seed gene	ENSP00000345502	3
+	Distance to seed gene	ENSP00000335153	3
+	Distance to seed gene	ENSP00000307208	4
+	Distance to seed gene	ENSP00000307078	3
+Total distance from targets:	17
+Number of targets connected to candidate:	5
+Score:	0.68
+
+Candidate gene	ENSP00000350369
+	Distance to seed gene	ENSP00000357292	3
+	Distance to seed gene	ENSP00000345502	4
+	Distance to seed gene	ENSP00000335153	3
+	Distance to seed gene	ENSP00000307208	3
+	Distance to seed gene	ENSP00000307078	4
+Total distance from targets:	17
+Number of targets connected to candidate:	5
+Score:	0.68

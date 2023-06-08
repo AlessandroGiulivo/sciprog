@@ -6,82 +6,33 @@ import seaborn as sns
 now = datetime.now()
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 
-'''
-if len(sys.argv) < 2:
-    raise Exception('network information missing')
-elif len(sys.argv) < 3:
-    raise Exception('disease genes missing')
-networkFile = sys.argv[1]
-network = np.loadtxt(networkFile, delimiter=' ', skiprows=1, dtype=str)
-
-targetsFile = sys.argv[2]
-targets = np.loadtxt(targetsFile, dtype=str)
-
-if len(sys.argv) > 3:
-    candidatesFile = sys.argv[3]
-    candidates = np.loadtxt(candidatesFile, dtype=str)
-else:
-    candidatesFile = None
-    candidates = np.array(list(set([gene[0].split('.')[1] for gene in network])))
-if len(sys.argv) > 4:
-    threshold: float = float(sys.argv[4])
-else:
-    threshold = 0
-'''
-
-def shortest_path(network, source, target, threshold):
-    path_list = [[source]]
-    path_index = 0
-    previous_nodes = {source}
-    if source == target:
-        return 0
-
-    while path_index < len(path_list):
-        current_path = path_list[path_index]
-        last_node = current_path[-1]
-        next_nodes = [network[i][1].split('.')[1]
-                            for i in range(len(network))
-                            if network[i][0].split('.')[1] == last_node
-                            and int(network[i][2]) > threshold]
-        if target in next_nodes:
-            current_path.append(target)
-            return len(current_path)-1
-
-        for next_node in next_nodes:
-            if not next_node in previous_nodes:
-                new_path = current_path[:]
-                new_path.append(next_node)
-                path_list.append(new_path)
-                previous_nodes.add(next_node)
-        path_index += 1
-    return None
-
-def load_network(filepath):
+def load_network(filepath, w):
     file_object = open(filepath, mode="r")
     network_object = nx.DiGraph()
     for line in file_object:
         if line.startswith("#") or line == "\n" or line.upper().startswith("P"):
             continue
         line = line.upper().split()
-        network_object.add_edge(line[0].split('.')[1], line[1].split('.')[1])
+        if int(line[2]) >= w:
+            network_object.add_edge(line[0].split('.')[1], line[1].split('.')[1], weight= int(line[2]))
+    network_object = network_object.to_undirected()
     return network_object
 
-def plots(result, net):
+def plots(result, net, nodes, draw_network):
     plt.figure()
-    #sns.set()
-    sns.barplot(x=list(result.keys()), y=list(result.values()))
-    plt.xticks(rotation=80)
+    sns.barplot(y=list(result.keys()), x=list(result.values()), orient = 'h')
     plt.title('Candidate Genes Scores')
-    plt.ylabel('Score')
-    plt.xlabel('Genes')
-    plt.savefig('results_image.pdf')
+    plt.ylabel('Genes')
+    plt.xlabel('Score')
+    plt.savefig('resultBarplot.pdf', bbox_inches='tight')
 
-    plt.figure()
-    net_undirected = net.to_undirected()
-    nx.draw(net_undirected.subgraph(max(nx.connected_components(net_undirected))), with_labels=True, node_size = 0.5, font_size=0.5, width=0.2)
-    plt.savefig('network.pdf')
+    if draw_network == True:
+        plt.figure()
+        nx.draw_networkx(net, nodelist = nodes, with_labels=True, node_size = 5, font_size=3, width=0.2)
+        plt.title('Connections between Seed Genes and Candidate Genes')
+        plt.savefig('resultNetwork.pdf')
 
-def genePred(networkFile, seedFile, candidateFile = None, threshold = 0, graphical = True):
+def genePred(networkFile, seedFile, candidateFile = None, threshold = 0, barplot=True, drawNetwork = True):
     '''
     The function ranks candidate disease genes according to their vicinity to
     the seed genes on a PPI network of a single species.
@@ -93,33 +44,48 @@ def genePred(networkFile, seedFile, candidateFile = None, threshold = 0, graphic
     :param candidateFile: optional - a set of “candidate” disease genes
                         (if not specified, all non-seed genes will be taken as candidates)
     :param threshold: int; default = 0; minimum cutoff for the interactions to be considered
-    :param graphical: bool; default = True; if True, graphical output which compares
+    :param barplot: bool; default = True; if True, graphical output file which compares
                         the scores of the individual candidate genes will be produced
-    :return: a results.txt file containing the ranked list of the candidate genes,
+    :param drawNetwork: bool; default = True; if True, graphical output file showing how the
+                        interesting genes are connected will be produced.
+                        Not recommended if parameter 'candidateFile' is not specified.
+                        
+    :return a results.txt file containing the ranked list of the candidate genes,
                         including the scores of their vicinty to the seed genes;
                         a details.txt file with more detailed information on the results.
 
-    :example: genePred('hsNetwork.txt', 'seedGenes.txt', 'candidateGenes.txt', threshold = 300)
+    :example from proj import *
+             genePred('hsNetwork.txt', 'seedGenes.txt', 'candidateGenes.txt', threshold = 300)
+
+
+    :note Gene Identifiers used in 'networkFile', 'seedFile', 'candidateFile' should be of the same type.
     '''
 
-    network = np.loadtxt(networkFile, delimiter=' ', skiprows=1, dtype=str)
+    net = np.loadtxt(networkFile, delimiter=' ', skiprows=1, dtype=str)
+    network = load_network(networkFile, threshold)
     targets = np.loadtxt(seedFile, dtype=str)
     if candidateFile != None:
         candidates = np.loadtxt(candidateFile, dtype=str)
     else:
-        candidates = np.array(list(set([gene[0].split('.')[1] for gene in network])))
+        candidates = np.array([gene for gene in list(network.nodes)])
 
     results = {}
-    with open('details.txt', 'w') as df:
+    with open('resultsDetailed.txt', 'w') as df:
         df.write(f'Scientific Programming Project 2\nPackage for disease gene prediction based on an protein-protein interaction network\nJob datetime: {dt_string}')
         df.write(f'\nParameters used:\n\tNetwork file: {networkFile}\n\tTarget genes file: {seedFile}\n\tCandidate genes file: {candidateFile}\n\tcombined_score = {threshold}\n\n')
+        nodesList = []
         for c in candidates:
             df.write(f'\n\nCandidate gene\t{c}')
             results[c] = [0, 0]
             print(f'Analyzing candidate gene {c}')
             for t in targets:
                 print(f'Computing distance to seed gene {t}:', end=' ')
-                d = shortest_path(network, c, t, threshold)
+                try:
+                    sp = nx.shortest_path(network, source=c, target=t)
+                    d = len(sp)
+                    nodesList.extend(sp)
+                except:
+                    d = None
                 if type(d) == int:
                     results[c][0] += d
                     results[c][1] += 1
@@ -144,11 +110,12 @@ def genePred(networkFile, seedFile, candidateFile = None, threshold = 0, graphic
     if result == {}:
         raise Exception('No candidate gene was found to have connections to seed genes')
 
-
     with open('results.txt', 'w') as rf:
         for k, v in result.items():
             rf.write(f'{k}\t{round(v, 3)}\n')
 
-    if graphical == True:
-        net = load_network(networkFile)
-        plots(result, net)
+    if barplot == True:
+        nodes = list(candidates)
+        nodes.extend(list(targets))
+        net = network.subgraph(set(nodesList))
+        plots(result, net, nodes, drawNetwork)

@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/pyProj/candidateGenes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/candidateGenes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyProj/details.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/details.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyProj/network.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/network.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyProj/network.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pyProj/proj.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/proj.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyProj/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/results.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyProj/results_image.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/results_image.pdf" afterDir="false" />
@@ -62,6 +61,7 @@
       <workItem from="1685190775044" duration="2606000" />
       <workItem from="1685278515160" duration="848000" />
       <workItem from="1685439980759" duration="15662000" />
+      <workItem from="1686054745757" duration="2841000" />
     </task>
     <servers />
   </component>
@@ -78,5 +78,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/proj_py$proj.coverage" NAME="proj Coverage Results" MODIFIED="1686055132485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyProj" />
   </component>
 </project>
