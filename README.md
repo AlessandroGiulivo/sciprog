@@ -5,9 +5,9 @@ This repository contains my final projects for the Scientific Programming course
 #### Package for disease gene prediction based on an protein-protein interaction network
 
 The software `proj.py` within the `pyProj` directory provides a python function `genePred` which takes:
-- a protein-protein interaction network from an individual species (e.g., human) from the STRING database, using only physical interactions,
-- a set of known disease-related “seed” (or reference) genes,
-- (optionally) a set of “candidate” disease genes (if not specified, all non-seed genes will be taken as candidates)
+- a *protein-protein interaction network from an individual species (e.g., human)* from the **STRING** database, using only physical interactions,
+- a *set of known disease-related “seed” (or reference) genes*,
+- (optionally) a *set of “candidate” disease genes* (if not specified, all non-seed genes will be taken as candidates)
 and ranks all “candidate” genes according to their vicinity to the seed genes on the network.  
 
 It returns:
