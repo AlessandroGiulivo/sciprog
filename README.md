@@ -27,7 +27,7 @@ The R package `mutType` within the `RProj` directory provides an R function `mut
 - a parameter “context_length” which is a positive, odd integer  
 
 It determines for each mutation (only SNVs; other mutations like indels are ignored) the corresponding mutation type as follows:
-The mutation type is `UP[REF>ALT]DOWN` where
+the mutation type is `UP[REF>ALT]DOWN` where
 - `REF>ALT` is the single nucleotide variant from `REF` base to `ALT` base, e.g., “`C>T`”
 - `UP` is one or more upstream bases from the reference genome (depending on the user parameter “context_length”)
 - `DOWN` is one or more downstream bases from the reference genome (same user parameter)
