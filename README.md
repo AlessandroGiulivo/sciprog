@@ -2,7 +2,7 @@
 This repository contains my final projects for the Scientific Programming course at BCG.
 
 ## Python Project
-### Package for disease gene prediction based on an protein-protein interaction network
+### Package for disease gene prediction based on a protein-protein interaction network
 
 The software `proj.py` within the `pyProj` directory provides a python function `genePred` which takes:
 - a *protein-protein interaction network from an individual species (e.g., human)* from the **STRING** database, using only physical interactions,
@@ -11,7 +11,7 @@ The software `proj.py` within the `pyProj` directory provides a python function 
 and ranks all “candidate” genes according to their vicinity to the seed genes on the network.  
 
 It returns:
-- a `results.txt` file containing the ranked list of the candidate genes, including the scores of their vicinty to the seed genes;
+- a `results.txt` file containing the ranked list of the candidate genes, including the scores of their vicinity to the seed genes;
 - a `resultsDetailed.txt` file with more detailed information on the results.
 - (optionally) a `resultBarplot.pdf` file that graphically compares the scores of the individual candidate genes
 - (optionally) a `resultNetwork.pdf` file that shows how distant or close seed genes and candidate genes are within the PPI network.  
@@ -24,7 +24,7 @@ It returns:
 The R package `mutType` within the `RProj` directory provides an R function `mutType` which takes:
 - a set of mutations (single nucleotide variants, SNVs) in VCF format,
 - the corresponding reference genome (e.g., human genome hg38),
-- a parameter “context_length” which is a positive, odd integer  
+- a parameter `context_length which is a positive, odd integer  
 
 It determines for each mutation (only SNVs; other mutations like indels are ignored) the corresponding mutation type as follows:
 the mutation type is `UP[REF>ALT]DOWN` where
