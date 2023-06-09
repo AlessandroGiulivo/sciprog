@@ -24,7 +24,7 @@ It returns:
 The R package `mutType` within the `RProj` directory provides an R function `mutType` which takes:
 - a set of mutations (single nucleotide variants, SNVs) in VCF format,
 - the corresponding reference genome (e.g., human genome hg38),
-- a parameter `context_length which is a positive, odd integer  
+- a parameter `context_length` which is a positive, odd integer  
 
 It determines for each mutation (only SNVs; other mutations like indels are ignored) the corresponding mutation type as follows:
 the mutation type is `UP[REF>ALT]DOWN` where
