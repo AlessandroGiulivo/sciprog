@@ -1,5 +1,10 @@
 ---
-title: "mutType"
+title: "mutType (R Project)"
+subtitle: |
+  | Determine the mutation type for a set of single nucleotide variants in a genome
+  |
+  | Alessandro Giulivo
+  | Scientific Programming - Prof Rosario M. Piro
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{mutType_vignette}
@@ -21,20 +26,29 @@ library(mutType)
 
 ## Description
 
-The mutType package takes a set of mutations (single nucleotide variants, SNVs) in VCF format, and determines for each mutation the corresponding mutation type.
+The mutType package takes a set of mutations (single nucleotide variants, SNVs)
+in VCF format,
+and determines for each mutation the corresponding mutation type.  
+Check out the [full github repository](https://github.com/AlessandroGiulivo/sciprog/tree/main/RProj).
 
 
 ## mutType function
 
-The mutType function compares a list of mutations in VCF format to a reference genome and returns the mutation type along with upstream and downstream bases for a total length = `context_length`.
+The mutType function compares a list of mutations in VCF format to a reference
+genome and returns the mutation type along with upstream and downstream
+bases for a total length = `context_length`.
 
 **Usage:** `mutType(VCFFile, refGenome, context_length, graphics = TRUE)`
 
 - `VCFFile`: a set of mutations in VCF Format
-- `refGenome`: Full reference genome sequences as provided by UCSC in Biostrings objects
-- `context_length`: an odd integer representing the length of region around the mutation
-- `graphics`: default = TRUE; if TRUE, saves a barplot of mutation type frequencies in a pdf file
-**returns** a vector of mutation types as "UP[REF>ALT]DOWN"
+- `refGenome`: Full reference genome sequences as provided by
+UCSC in Biostrings objects
+- `context_length`: an odd integer representing the length of region
+around the mutation
+- `graphics`: default = TRUE; if TRUE, saves a barplot of mutation type
+frequencies in a pdf file
+**returns** a data.frame object containing mutations from `VCFFile` along with
+mutation types as "UP[REF>ALT]DOWN"
 
 **Example**
 ```{r mutType_example}
@@ -43,29 +57,28 @@ Hs <- Hsapiens
 
 sample <- system.file("extdata", "sample.vcf", package = "mutType")
 
-mutType(sample, Hs, 7, graphics = FALSE)
+muts <- mutType(sample, Hs, 7, graphics = FALSE)
+
+muts
 ```
 
 
 ## mutTypeTable function
 
-The mutTypeTable function summarizes the mutations obtained from mutType function into a counts table and produces a pdf image plotting the results.
-It is automatically run when calling mutType function with parameter graphics = T 
+The mutTypeTable function summarizes the mutations obtained from mutType
+function into a counts table and produces a pdf image plotting the results.
+It is automatically run when calling mutType function when parameter
+`graphics = T`.
 
 **Usage:** `mutTypeTable(mutTypeResult)`
 
-- `mutTypeResult`: a vector as obtained from the mutType function`
+- `mutTypeResult`: a data.frame object as obtained from the mutType function`
 
 **returns** a table along with a histogram summarizing mutation types
 
 **Example**
 
 ```{r mutTypeTable_example}
-library(BSgenome.Hsapiens.UCSC.hg19)
-Hs <- Hsapiens
-sample <- system.file("extdata", "sample.vcf", package = "mutType")
-
-muts <- mutType(sample, Hs, 7, graphics = FALSE)
 mutTypeTable(muts)
 ```
 
@@ -74,5 +87,8 @@ mutTypeTable(muts)
 **Author**:  
 Alessandro Giulivo  
 Politecnico di Milano  
+E-Mail: [alessandro.giulivo@@mail.polimi.it]  
+  
 Maintainer: Alessandro Giulivo  
-E-Mail: [alessandro.giulivo@@mail.polimi.it]
+  
+Github repository: https://github.com/AlessandroGiulivo/sciprog/tree/main/RProj

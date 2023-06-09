@@ -20,9 +20,7 @@ frequencies in a pdf file}
 }
 \value{
 data.frame object of mutations as "UP[REF>ALT]DOWN" and mutation
-types as "[REF>ALT]" where "REF" is always either "C" or "T"..
-
-[REF>ALT]: R:REF\%3EALT\%5C
+types as "\link{REF>ALT}" where "REF" is always either "C" or "T".
 }
 \description{
 The mutType function compares a list of mutations in VCF format to a
@@ -37,6 +35,12 @@ sample <- system.file("extdata", "sample.vcf", package = "mutType")
 
 mutType(sample, Hs, 7)
 
+}
+\references{
+\url{https://github.com/AlessandroGiulivo/sciprog/tree/main/RProj}
+}
+\seealso{
+\code{\link{mutTypeTable}}
 }
 \author{
 Alessandro Giulivo\cr Politecnico di Milano\cr Maintainer:

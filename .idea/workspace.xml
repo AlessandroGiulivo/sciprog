@@ -6,14 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5f111825-d4d2-4897-90e0-a075b9f84a65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyProj/candidateGenes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/candidateGenes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyProj/proj.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/proj.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyProj/resultBarplot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/resultBarplot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyProj/resultNetwork.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/resultNetwork.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyProj/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyProj/resultsDetailed.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pyProj/resultsDetailed.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyProj/targetExample.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyProj/targetGenes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RProj/mutTypeFreqs.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RProj/mutationTypes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RProj/mutationTypesTable.tsv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +20,7 @@
     <option name="printScope" value="1" />
     <option name="PRINT_LINE_NUMBERS" value="true" />
     <option name="OPEN_IN_BROWSER" value="true" />
-    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/pyProj/" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,7 +65,7 @@
       <workItem from="1685278515160" duration="848000" />
       <workItem from="1685439980759" duration="15662000" />
       <workItem from="1686054745757" duration="2841000" />
-      <workItem from="1686238846179" duration="12161000" />
+      <workItem from="1686238846179" duration="13186000" />
     </task>
     <servers />
   </component>

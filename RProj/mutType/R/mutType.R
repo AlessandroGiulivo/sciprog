@@ -14,7 +14,7 @@
 #' @param graphics default = TRUE; if TRUE, saves a barplot of mutation type
 #' frequencies in a pdf file
 #' @return data.frame object of mutations as "UP\[REF>ALT\]DOWN" and mutation
-#' types as "[REF>ALT\]" where "REF" is always either "C" or "T"..
+#' types as "[REF>ALT]" where "REF" is always either "C" or "T".
 #' 
 #' @examples
 #'
@@ -26,6 +26,9 @@
 #' 
 #' @author Alessandro Giulivo\cr Politecnico di Milano\cr Maintainer:
 #' Alessandro Giulivo\cr E-Mail: <alessandro.giulivo@@mail.polimi.it>
+#' @references \url{https://github.com/AlessandroGiulivo/sciprog/tree/main/RProj}
+#' 
+#' @seealso \code{\link{mutTypeTable}}
 #'
 #' @export mutType
 #' @importFrom VariantAnnotation readVcf

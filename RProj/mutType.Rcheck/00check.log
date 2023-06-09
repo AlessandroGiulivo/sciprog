@@ -29,7 +29,6 @@
 * checking whether the package can be unloaded cleanly ... OK
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
-* checking loading without being on the library search path ... OK
 * checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
@@ -43,7 +42,11 @@ Undefined global functions or variables:
   ALT Frequency REF Type
 * checking Rd files ... OK
 * checking Rd metadata ... OK
-* checking Rd cross-references ... OK
+* checking Rd cross-references ... WARNING
+Collegamenti assenti nell'oggetto documentazione 'mutType.Rd':
+  ‘REF>ALT’
+
+Vedi sezione 'Cross-references' nel manuale 'Writing R Extensions'.
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... OK
 * checking Rd \usage sections ... OK
@@ -59,4 +62,4 @@ Undefined global functions or variables:
 * checking re-building of vignette outputs ... OK
 * checking PDF version of manual ... OK
 * DONE
-Status: 1 NOTE
+Status: 1 WARNING, 1 NOTE

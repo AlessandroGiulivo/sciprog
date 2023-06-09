@@ -198,7 +198,7 @@ detaching ‘package:BSgenome.Hsapiens.UCSC.hg19’, ‘package:BSgenome’,
 
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  8.507 0.459 9.078 0 0 
+Time elapsed:  8.408 0.396 8.86 0 0 
 > grDevices::dev.off()
 null device 
           1 

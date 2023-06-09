@@ -7,7 +7,7 @@
 mutTypeTable(mutTypeResult)
 }
 \arguments{
-\item{mutTypeResult}{a vector as obtained from the mutType function}
+\item{mutTypeResult}{a data.frame as obtained from the mutType function}
 }
 \value{
 a table along with a histogram summarizing mutation types
@@ -27,6 +27,12 @@ sample <- system.file("extdata", "sample.vcf", package = "mutType")
 muts <- mutType(sample, Hs, 7, graphics = FALSE)
 mutTypeTable(muts)
 
+}
+\references{
+\url{https://github.com/AlessandroGiulivo/sciprog/tree/main/RProj}
+}
+\seealso{
+\code{\link{mutType}}
 }
 \author{
 Alessandro Giulivo\cr Politecnico di Milano\cr Maintainer:

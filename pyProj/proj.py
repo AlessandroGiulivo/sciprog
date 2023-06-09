@@ -3,6 +3,7 @@
 ###                 Scientific Programming - Prof Rosario M. piro
 ###                        Python Project (Project 2)
 ### Package for disease gene prediction based on an protein-protein interaction network
+###           full repository: github.com/AlessandroGiulivo/sciprog
 
 # This python program provides a "genePred" function that takes:
 # - a Protein-Protein Interaction network from an individual species as downloaded from the STRING database,

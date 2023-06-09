@@ -4,11 +4,12 @@ Version: 0.0.1
 Authors@R: 
     person("Alessandro", "Giulivo", , "alessandro.giulivo@mail.polimi.it", role = c("aut", "cre"))
 Description: The mutType package takes a set of mutations (single nucleotide variants, SNVs) in VCF format, and determines for each mutation the corresponding mutation type.
-Depends: R(>= 3.6)
+Depends: R(>= 4.2)
 Imports: utils, VariantAnnotation, SummarizedExperiment, IRanges, Biostrings, ggplot2, BSgenome.Hsapiens.UCSC.hg19, tidyr, dplyr
 Suggests: knitr, rmarkdown, BiocStyle
 VignetteBuilder: knitr
 License: GPL-2
+URL: https://github.com/AlessandroGiulivo/sciprog/tree/main/RProj
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3

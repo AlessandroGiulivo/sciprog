@@ -6,7 +6,7 @@
 #' parameter graphics = T 
 #'
 #' @usage mutTypeTable(mutTypeResult)
-#' @param mutTypeResult a vector as obtained from the mutType function
+#' @param mutTypeResult a data.frame as obtained from the mutType function
 #' @return a table along with a histogram summarizing mutation types
 #'
 #' @examples
@@ -20,6 +20,10 @@
 #'
 #' @author Alessandro Giulivo\cr Politecnico di Milano\cr Maintainer:
 #' Alessandro Giulivo\cr E-Mail: <alessandro.giulivo@@mail.polimi.it>
+#' 
+#' @references \url{https://github.com/AlessandroGiulivo/sciprog/tree/main/RProj}
+#' 
+#' @seealso \code{\link{mutType}}
 #' 
 #' @export mutTypeTable
 #' @importFrom utils write.table
