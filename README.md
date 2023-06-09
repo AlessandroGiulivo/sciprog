@@ -34,5 +34,8 @@ the mutation type is `UP[REF>ALT]DOWN` where
 
 Optionally, the `mutTypeTable` function can be used to summarize the results and produce a barplot of the mutation types frequencies.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 1b6fa7ef92f53acdd6c177050f5ff950bad05871
